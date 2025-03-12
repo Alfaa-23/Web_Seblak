@@ -1,0 +1,178 @@
+body {
+    font-family: Arial, sans-serif;
+    display: grid;
+    grid-template-rows:auto 1fr auto;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    background: #d32f2f;
+    padding: 15px 0;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background: #d32f2f;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.order-btn {
+    background: white;
+    color: #d32f2f;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.order-btn:hover {
+    background: #b71c1c;
+    color: white;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: url('pizza-bg.jpg') center/cover no-repeat;
+    color: white;
+}
+
+.hero h1 {
+    color: black;
+    font-size: 40px;
+}
+
+.hero span {
+    color: red;
+}
+
+.hero p{
+    font-size: 20px;
+    color: black;
+}
+
+.btn-primary {
+    background: #d32f2f;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background: #b71c1c;
+}
+
+.btn-primary a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn-primary a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu-item {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item img {
+    width: 150px;
+    border-radius: 10px;
+}
+
+.menu-item p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.menu-item button {
+    background: #d32f2f;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.menu-item button:hover {
+    background: #b71c1c;
+}
+
+.kontak {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.kontak form {
+    max-width: 500px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.kontak label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.kontak input, .kontak textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.kontak button {
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 7px;
+    background: #222;
+    color: white;
+}
